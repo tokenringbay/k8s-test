@@ -41,7 +41,7 @@ pipeline {
        }
        stage('Publish') {
            environment {
-               registryCredential = 'dockerhub'
+               registryCredential = 'tkoulech'
            }
            steps{
                script {
