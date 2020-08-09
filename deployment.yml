@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: ""
+        image: "tkoulech/k8s-test:13"
         resources:
           requests:
             cpu: 10m
